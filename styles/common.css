@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* 重置 */
+
+* {
+	word-wrap: break-word;
+}
+body {
+	background: #FFF;
+	position: relative;
+}
+body, input, button, select, textarea {
+	font-size: 12px/1.5;
+	color: #444;
+	outline: none;
+}
+textarea {
+	resize: none;
+}
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form,img, fieldset {
+	margin: 0;
+	padding: 0;
+}
+table {
+	empty-cells: show;
+	border-collapse: collapse;
+}
+caption, th {
+	text-align: left;
+	font-weight: 400;
+}
+ul li {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+}
+em, cite, i {
+	font-style: normal;
+}
+a {	
+
+	color: #333;
+	text-decoration: none;
+}
+a:hover,
+a:link,
+a:visited,
+a:active {
+	text-decoration: none !important;
+}
+a img {
+	border: none;
+}
+label {
+	cursor: pointer;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
+
+
+body {
+	background: #f5f5f5;
+	font-family: 'Helvetica,Arial,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei","tohoma,sans-serif"';
+	/* font-family:'Helvetica,Arial,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei","tohoma,sans-serif"'; */
+	font-size:12px;
+	line-height: 1.5;
+	color: #71777f;
+}
+.container_wrap {
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+
+}
+.wp {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.triangle-up {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right:5px solid transparent;
+	border-bottom: 6px solid #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    #header_fixed .header_wrap{
+		margin: 0 auto !important;
+		
+		
+	}
+}
+
+
+#header_top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	height: auto;
+	box-shadow: 0 1px 4px #ccc;
+	font-family: "Helvetica","Tahoma","Arial","PingFang SC","Microsoft JhengHei","SimSun","sans-serif";
+	color: #000;
+	
+	z-index: 999;
+}
+#header_top .container_wrap {
+	height: 58px;
+	
+}
+
+#header_top .logo {
+	padding-top: 9px;
+	position: absolute;
+	padding-right: 25px;
+}
+#header_top .logo img {
+	width: 120px;
+}
+#header_top .nav {
+	margin-left: 275px;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 14px;
+
+}
+#header_top .nav li {
+	float: left;
+	height: 33px;
+	line-height: 33px;
+	margin-right: 1px;
+}
+#header_top .nav li.active a{
+	color: #0d7af5;
+}
+
+#header_top .nav li a {
+	display: block;
+	color: #3d4044;
+	padding: 0 14px;
+	font-size: 16px;
+}
+#header_top .nav li:hover a {
+	color: #0d7af5;
+}
+#header_top .header_search {
+	position: relative;
+
+}
+#header_top .sq_form {
+	position: relative;
+	float: left;
+}
+#header_top .sq_form .form_txt {
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-right: 125px;
+	background: #fff;
+	height: 27px;
+	width: 180px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	border-radius: 25px;
+	opacity: 0.9;
+}
+#header_top .sq_form i {
+	font-size: 17px;
+	color: #858585;
+	position: absolute;
+	right: 136px;
+	top: 20px;
+	cursor: pointer;
+
+}
+#header_top .login_re {
+	float: left;
+	position: absolute;
+	top: 15px;
+	right: 4px;
+}
+#header_top .login_re .login {
+	display: inline-block;
+}
+#header_top .login_re .login,
+#header_top .login_re .regsiter{
+	display: block;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	border-radius: 17px;
+	padding: 0 10px;
+	height: 28px;
+	line-height: 28px;
+	background: #0d7af5;
+	font-size: 14px;
+	color: #fff;
+}
+#header_top .login_re .login:hover {
+	opacity: 0.8; 
+}
+#header_top .login_re .regsiter {
+	background: none;
+	color: #000;
+}
+
+
+/* 返回按钮 */
+#sq_back {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	opacity: 0;
+}
+#sq_back  div {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	color:rgba(201,214,222);
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: rgba(15, 37, 64, 0.1) 0px 5px 15px 0px;
+	
+
+}
+#sq_back div i{
+	font-size: 40px;
+	margin-top: 2px;
+	color:rgb(201,214,222);
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	
+}
+#sq_back div:hover i{
+	color:#67abd7;
+}
+
+.mCSB_scrollTools a+.mCSB_draggerContainer {
+	margin: 0;margin-bottom: 10px;
+}
+.mCSB_container {
+	margin-right: 0;
+}

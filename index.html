@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>神奇社区丨分享你奇妙生活 </title>
+	
+	<link rel="shortout icon" href="favicon.ico" type="image/x-icon" />
+	<link href="font/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- 滚动条插件 -->
+	<link href="lib/customScroll/jquery.mCustomScrollbar.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/common.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<!--[if IE]>
+	<link href="fontawesome-4.2.0/css/font-awesome-ie7.min.css" rel="stylesheet" />
+	<![endif]-->
+	<!-- <script src="http://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script> -->
+	<script src="lib/jquery-1.11.1/jquery.min.js"></script>
+	<script src="scripts/jquery.easing.1.3.js"></script>
+	<script src="lib/customScroll/jquery.mCustomScrollbar.concat.min.js"></script>
+
+</head>
+<body>
+	<!-- 头部 开始 -->
+	<header id="header1">
+		<div id="header_top">
+			<div class="container_wrap clearfix">
+				<div class="logo fl">
+					<a href="index.html">
+						<img src="images/logo.png" alt="">
+					</a>
+				</div>
+				<div class="nav">
+						<ul class="clearfix">
+							<li class="active"><a href="index.html">首页</a></li>
+							<li><a href="community.html">社区</a></li>
+							<li><a href="#">兴趣小组</a></li>
+							<li><a href="#">直播</a></li>
+							<li><a href="#">说说生活</a></li>
+							<li><a href="#">客户端</a></li>
+						</ul>
+				</div>
+				<div class="header_search fr">
+						<form class="sq_form">
+							<input type="text" class="form_txt" placeholder="搜索文章，帖子，用户">
+							<i class="search fa fa-search"></i>
+							
+						</form>
+						
+						<div class="login_re clearfix">
+							<div class="xc fl">
+								<a href="login.html" class="login">登 录
+								</a>
+								<!-- <div class="hide_lig" id="hide_lig">
+									<ul class="clearfix">
+										<li class="active">
+											<a href="#" class="weibo"><i class="fa fa-weibo" aria-hidden="true"></i>新浪登录</a>
+										</li>
+										<li>
+											<a href="#" class="weixin"><i class="fa fa-weixin" aria-hidden="true"></i>微信登录</a>
+										</li>
+									</ul>
+								</div> -->
+								<div class="clearfix"></div>
+							</div>
+							
+							<a href="regsiter.html" class="regsiter">注 册</a>
+							
+						</div>
+						
+
+				</div>
+			</div>
+		</div>
+		
+		<div id="header_slider">
+			<div class="container_wrap slider_inner">
+					<ul class="slider clearfix">
+						<li>
+							<a href="#" >
+								<img src="images/top_big_01.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_02.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_03.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_04.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_05.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_06.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_03.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_05.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+					<ul class="slider_btn clearfix">
+						<li class="active">
+							<a href="#">
+								<img src="images/top_big_01.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_02.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_03.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_04.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_05.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_06.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_03.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/top_big_05.jpg" alt="">
+							</a>
+						</li>
+						
+					</ul>
+			</div>
+		</div>
+	</header>
+	<!-- 头部 结束 -->
+
+	<!-- 体验 开始 -->
+	<div id="sq_box1">
+		<div class="wp">
+			<div class="box1_title ">
+				<h2 class="sq_h2">社区体验</h2>
+				<a id="change_show">
+					<span class="icon_change">查看更多</span>
+				</a>
+			</div>
+			<div class="box1_main">
+				<div class="sq_inner">
+					<ul class=" clearfix slider_now" id="sq_slider">
+						<li>
+								<a href="#">
+									<img src="images/tiyan_01.jpg" alt="">
+									<div class="txt">
+										<h3>
+											vivo X9s
+										</h3>
+										<p>vivo 逐渐开始淡化自己十分擅长的手机 Hi-Fi 领域。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_02.jpg" alt="">
+									<div class="txt">
+										<h3>
+											小米运动蓝牙耳机 mini
+										</h3>
+										<p>小米运动蓝牙耳机 mini 基本保持了上一代的风格，但体积小了很多。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_03.jpg" alt="">
+									<div class="txt">
+										<h3>
+											华为 MateBook X
+										</h3>
+										<p>华为 MateBook X 高端商务本，整体表现抢眼，瞄准商务办公人群。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_04.jpg" alt="">
+									<div class="txt">
+										<h3>
+											暴风电视 X5 ECHO
+										</h3>
+										<p>暴风人工智能电视 X5 ECHO，主打更自然的人工智能交互体验。</p>
+									</div>
+
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_05.jpg" alt="">
+									<div class="txt">
+										<h3>
+											米家 wiha 精修螺丝刀
+										</h3>
+										<p>螺丝虽不起眼，但它却是我们生活中最常见的物品。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_06.jpg" alt="">
+									<div class="txt">
+										<h3>
+											AOC LUVIA 显示器
+										</h3>
+										<p>电脑显示器的分辨率确实也到了需要同步升级的时候了。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_07.jpg" alt="">
+									<div class="txt">
+										<h3>
+											魅蓝 Everyday 轻装系列
+										</h3>
+										<p>“收纳” —— 居家生活当中一个永恒的话题。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_08.jpg" alt="">
+									<div class="txt">
+										<h3>
+											魅蓝 Everyday 轻装系列
+										</h3>
+										<p>“收纳” —— 居家生活当中一个永恒的话题。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_09.jpg" alt="">
+									<div class="txt">
+										<h3>
+											雷蛇灵刃潜行版 13.3 笔电
+										</h3>
+										<p>轻薄本中最「游戏向」的，非他莫属了。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_10.jpg" alt="">
+									<div class="txt">
+										<h3>
+											赛睿 Arctis 7 游戏耳机
+										</h3>
+										<p>一款酷到让你想带出街的无线游戏耳机。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_11.jpg" alt="">
+									<div class="txt">
+										<h3>
+											宏碁掠夺者 Helios 300
+										</h3>
+										<p>综合实力不错，开学游戏本的好选择。</p>
+									</div>
+								</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="images/tiyan_12.jpg" alt="">
+									<div class="txt">
+										<h3>
+											华为 MateBook X
+										</h3>
+										<p>华为 MateBook X 高端商务本，整体表现抢眼，瞄准商务办公人群。</p>
+									</div>
+								</a>
+						</li>
+						
+					</ul>
+					<div class="show_more_box">
+						<ul class=" clearfix slider_now show_more" id="show_more">
+							<!-- <li>
+								<a href="#">
+									<img src="images/tiyan_01.jpg" alt="">
+									<div class="txt">
+										<h3>
+											Campfire Andromeda CK
+										</h3>
+										<p>白色的 Andromeda CK 是仙女座美的最佳呈现方式。</p>
+									</div>
+								</a>
+								
+							</li> -->
+							
+						</ul>
+
+					</div>
+					
+				</div>
+				<div class="sq_content_close" id="sq_content_close" >
+					<i class="fa fa-plus-circle" aria-hidden="true"></i>显示更多
+				</div>
+			</div>
+			<div class="cl_page clearfix">
+				<span class="prev fa fa-angle-left"></span>
+				<span class="next fa fa-angle-right"></span>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- 体验 结束 -->
+	
+	<!-- 最新 开始 -->
+	<div id="sq_box2">
+		
+		<div class="wp sq_box2_part clearfix">
+			<h2 class="	sq_h2">最新文章</h2>
+			<div class="sq_box2_main fl">
+				<!-- <dl>
+					<div class="artitle_author_date">
+						<div class="perple">
+							<a href="#"><img src="images/touxiang/29_avatar_middle.jpg" alt=""></a>
+						</div>
+						<div class="a">
+							<h5 class="a_author">神人物</h5>
+							<div class="a_h">
+								<a href="#">周边</a>
+							</div>
+						</div>
+						<div class="a_date">
+							11小时前
+						</div>
+
+					</div>
+					<dd class="artitle_img">
+						<a href="#">
+							<img src="images/wenzhang_01.jpg" alt="">
+						</a>
+					</dd>
+					<dt>
+						<a href="#" class="a_title">深夜俱乐部｜你会随身携带移动电源吗？</a>
+					</dt>
+					<dd class="artitle_summary">手机已经成为了人们重要的生活设备，当出门在外手机没电时就好像与世界断了联系，这时移动电源就起到了关键作用。那么今晚的深夜俱乐部，我们就来谈谈，你会随身携带移动电源吗？</dd>
+					<dd class="artitle_mmtre">
+						<span class="a_good">6</span>
+						<span class="a_comment">36</span>
+					</dd>
+				</dl -->
+				
+			</div>
+
+			<!-- 侧边栏 开始 -->
+			<div class="sidebar fl">
+			
+				<div class="sd_box_ad">
+					<a href="#" class="box2_img">
+					<img src="images/forum_enter.jpg" alt=""></a>
+				</div>
+				<div class="sd_box part_1">
+					<div class="sd_title">神奇频道</div>
+					<div class="sd_info">
+						<ul class="clearfix">
+							<li><a href="#" class="pd_icon1">手机</a></li>
+							<li><a href="#" class="pd_icon2">平板</a></li>
+							<li><a href="#" class="pd_icon3">电脑</a></li>
+							<li><a href="#" class="pd_icon4">资讯</a></li>
+							<li><a href="#" class="pd_icon5">视频</a></li>
+							<li><a href="#" class="pd_icon7">周边</a></li>
+							<li><a href="#" class="pd_icon8">摄影</a></li>
+							<li><a href="#" class="pd_icon9">影音</a></li>
+							<li><a href ="#" class="pd_icon10">数码</a></li>
+							<li><a href ="#" class="pd_icon11">旅行</a></li>
+							<li><a href ="#" class="pd_icon12">生活</a></li>
+							<li><a href ="#" class="pd_icon13">文具</a></li>
+							<li><a href ="#" class="pd_icon14">玩物</a></li>
+							<li><a href ="#" class="pd_icon15">游戏</a></li>
+							<li><a href ="#" class="pd_icon16">应用</a></li>
+							<li><a href ="#" class="pd_icon17">沙龙</a></li>
+							<li><a href ="#" class="pd_icon18">活动</a></li>
+							<li><a href ="#" class="pd_icon19">全部</a></li>
+							
+						</ul>
+					</div>
+				</div>
+
+				<div class="sd_slider" id="slider_small">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<img src="images/asider_01.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#"><img src="images/asider_02.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#"><img src="images/asider_03.png" alt="">
+							</a>
+						</li>
+					</ul>
+					<div class="sd_a_page">
+						<div class="p_list active"></div>
+						<div class="p_list"></div>
+						<div class="p_list"></div>
+					</div>	
+				</div>
+				<div class="sd_box hot_events">
+					<div class="sd_title">热门专题</div>
+					<div class="hot_slider">
+							<ul class="clearfix" >
+								<li class="list">
+									<div class="list_inner">
+										<a href="#" title="摄影大赛，「随心拍」寻找最美的瞬间">
+											<img src="images/hots_01.jpg" alt="摄影大赛，「随心拍」寻找最美的瞬间">
+
+										</a>
+									</div>
+									<div class="list_aa"></div>
+									<div class="t_show">
+										<p class="h_title">摄影大赛，「随心拍」寻找最美的瞬间</p>
+									</div>
+								</li>
+								<li class="list">
+									<div class="list_inner">
+										<a href="#" title="致敬劳动者">
+											<img src="images/hots_02.jpg" alt="致敬劳动者">
+
+										</a>
+									</div>
+									<div class="list_aa"></div>
+									<div class="t_show">
+										<p class="h_title">致敬劳动者</p>
+									</div>
+								</li>
+								<li class="list">
+									<div class="list_inner">
+										<a href="#" title="记录生活背后的故事">
+											<img src="images/hots_03.jpg" alt="记录生活背后的故事">
+
+										</a>
+									</div>
+									<div class="list_aa"></div>
+									<div class="t_show">
+										<p class="h_title">记录生活背后的故事</p>
+									</div>
+								</li>
+								<li class="list">
+									<div class="list_inner">
+										<a href="#" title="「数码换新季」三月真心送">
+											<img src="images/hots_04.jpg" alt="「数码换新季」三月真心送">
+
+										</a>
+									</div>
+									<div class="list_aa"></div>
+									<div class="t_show">
+										<p class="h_title">「数码换新季」三月真心送</p>
+									</div>
+								</li>
+								<li class="list">
+									<div class="list_inner">
+										<a href="#" title="开工大吉">
+											<img src="images/hots_05.jpg" alt="开工大吉">
+
+										</a>
+									</div>
+									<div class="list_aa"></div>
+									<div class="t_show">
+										<p class="h_title">开工大吉</p>
+									</div>
+								</li>
+								<li class="list">
+									<div class="list_inner">
+										<a href="#" title="「旅行」| 关于旅行的一切">
+											<img src="images/hots_06.jpg" alt="「旅行」| 关于旅行的一切">
+
+										</a>
+									</div>
+									<div class="list_aa"></div>
+									<div class="t_show">
+										<p class="h_title">「旅行」| 关于旅行的一切</p>
+									</div>
+								</li>
+								<li class="list">
+									<div class="list_inner">
+										<a href="#" title="「好物驾到」| 送送">
+											<img src="images/hots_07.jpg" alt="「好物驾到」| 送送">
+
+										</a>
+									</div>
+									<div class="list_aa"></div>
+									<div class="t_show">
+										<p class="h_title">「好物驾到」| 送送</p>
+									</div>
+								</li>
+							</ul>
+					</div>	
+				</div>
+				<div class="sq_video sq_direct">
+					<div class="sd_box hot_events ">
+						<div class="sd_title">社区直播</div>
+						<div class="hot_slider">
+								<ul class="clearfix">
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="直播 | 绽放青春">
+														<img src="images/hots_08.jpg" alt="直播 | 绽放青春">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">直播 | 绽放青春</p>
+												</div>
+									</li>
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="直播 | 充实的生活">
+														<img src="images/hots_09.jpg" alt="直播 | 充实的生活">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">直播 | 充实的生活</p>
+												</div>
+									</li>
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="直播 | 魅蓝6新品发布会">
+														<img src="images/hots_10.jpg" alt="直播 | 魅蓝6新品发布会">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">直播 | 魅蓝6新品发布会</p>
+												</div>
+									</li>
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="直播 | iPhone诞生十周年盛宴！苹果新闻发布会">
+														<img src="images/hots_11.jpg" alt="直播 | iPhone诞生十周年盛宴！苹果新闻发布会">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">直播 | iPhone诞生十周年盛宴！苹果新闻发布会</p>
+												</div>
+									</li>
+								</ul>
+						</div>	
+					</div>
+					<div class="enter">
+							进入社区直播
+							<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				<div class="sq_video">
+					<div class="sd_box hot_events ">
+						<div class="sd_title">神奇视频</div>
+						<div class="hot_slider">
+								<ul class="clearfix">
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="用慢镜头，发现身边不一样的美">
+														<img src="images/hots_12.jpg" alt="用慢镜头，发现身边不一样的美">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">用慢镜头，发现身边不一样的美</p>
+												</div>
+									</li>
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="户外伴侣，军拓铁腕 3S 运动腕表体验">
+														<img src="images/hots_13.jpg" alt="户外伴侣，军拓铁腕 3S 运动腕表体验">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">户外伴侣，军拓铁腕 3S 运动腕表体验</p>
+												</div>
+									</li>
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="服了这些极客玩家们的脑洞！牛人的穿越机还能这么玩">
+														<img src="images/hots_14.jpg" alt="服了这些极客玩家们的脑洞！牛人的穿越机还能这么玩">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">服了这些极客玩家们的脑洞！牛人的穿越机还能这么玩</p>
+												</div>
+									</li>
+									<li class="list">
+												<div class="list_inner">
+													<a href="#" title="用慢镜头，发现身边不一样的美">
+														<img src="images/hots_11.jpg" alt="用慢镜头，发现身边不一样的美">
+
+													</a>
+												</div>
+												<div class="list_aa"></div>
+												<div class="t_show">
+													<p class="h_title">用慢镜头，发现身边不一样的美</p>
+												</div>
+									</li>
+								</ul>
+						</div>	
+					</div>
+					<div class="enter">
+							进入神奇视频
+							<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+				
+				<div id="server_option">
+					<div class="sd_box hot_events" >
+						<div class="sd_title">社区精选</div>
+						<div class="hot_slider">
+								<ul class="clearfix">
+									<li class="list">
+										<div class="list_inner">
+											<a href="#" title="专注打磨颜值，魅蓝 6 轻体验">
+												<img src="images/hots_15.jpg" alt="专注打磨颜值，魅蓝 6 轻体验">
+
+											</a>
+										</div>
+										<div class="list_aa"></div>
+										<div class="t_show">
+											<p class="h_title">专注打磨颜值，魅蓝 6 轻体验</p>
+										</div>
+									</li>
+									<li class="list">
+										<div class="list_inner">
+											<a href="#" title="「旅行」| 关于旅行的一切">
+												<img src="images/hots_16.jpg" alt="「旅行」| 关于旅行的一切">
+
+											</a>
+										</div>
+										<div class="list_aa"></div>
+										<div class="t_show">
+											<p class="h_title">「旅行」| 关于旅行的一切</p>
+										</div>
+									</li>
+									<li class="list">
+										<div class="list_inner">
+											<a href="#" title="与「风格」的不期而遇">
+												<img src="images/hots_17.jpg" alt="与「风格」的不期而遇">
+
+											</a>
+										</div>
+										<div class="list_aa"></div>
+										<div class="t_show">
+											<p class="h_title">与「风格」的不期而遇</p>
+										</div>
+									</li>
+									<li class="list">
+										<div class="list_inner">
+											<a href="#" title="裸眼 3D 看世界，3DBox 专题">
+												<img src="images/hots_18.jpg" alt="裸眼 3D 看世界，3DBox 专题">
+
+											</a>
+										</div>
+										<div class="list_aa"></div>
+										<div class="t_show">
+											<p class="h_title">裸眼 3D 看世界，3DBox 专题</p>
+										</div>
+									</li>
+									<li class="list">
+										<div class="list_inner">
+											<a href="#" title="回忆消失的“诺记”">
+												<img src="images/hots_19.jpg" alt="回忆消失的“诺记”">
+
+											</a>
+										</div>
+										<div class="list_aa"></div>
+										<div class="t_show">
+											<p class="h_title">回忆消失的“诺记”</p>
+										</div>
+									</li>
+								</ul>
+						</div>	
+					</div>
+					<div class="sq_partner">
+						<h3>神奇社区合作伙伴</h3>
+						<ul class="clearfix">
+							<li>
+								<a href="#">
+									<img src="images/page2/partner1.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/page2/partner2.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/page2/partner3.png" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="footer">
+
+					<div class="us">
+						<a href="#">关于我们</a>
+						<a href="#">联系我们</a>
+					</div>
+					<div class="friendlink">
+						<a href="#"><i class="link_1 fa fa-weixin"></i></a>
+						<a href="#"><i class="link_2 fa fa-weibo"></i></a>
+						<a href="#"><i class="link_3 fa fa-github"></i></a>
+					</div>
+					<p>Share the beautiful life we live</p>
+					<p>粤ICP备63000000号-6</p>
+					
+				</div>
+			</div>
+			<!-- 侧边栏 结束 -->
+		</div>
+			
+		
+	</div>
+	<!-- 最新 结束 -->
+	
+	<!-- 返回按钮 开始 -->
+	<div id="sq_back">
+		<div>
+			<i class="fa fa-angle-up"></i>
+		</div>
+	</div>
+	<!-- 返回按钮 结束 -->
+	<!-- 底部 开始 -->
+	<!-- <footer id="footer">
+		<div class="wp">
+			<div class="us">
+				<a href="#">关于我们</a>
+				<a href="#">联系我们</a>
+			</div>
+			<div class="friendlink">
+				<a href="#"><i class="link_1 fa fa-weixin"></i></a>
+				<a href="#"><i class="link_2 fa fa-weibo"></i></a>
+				<a href="#"><i class="link_3 fa fa-github"></i></a>
+			</div>
+			<p>Share our beautiful life</p>
+			<p>粤ICP备63000000号-6</p>
+		</div>
+		
+	</footer> -->
+	<!-- 底部 结束 -->
+
+	<script src="scripts/main.js"></script>
+</body>
+</html>
+
+

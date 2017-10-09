@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/* 登录浮框 */
+#login_con {
+	
+	background: #fff;
+	height: 800px;
+	background: url(../images/top_big_06.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	/* background: #fff; */
+	position: relative;
+}
+#login_con .wp .wp_iner {
+	
+	width: 100%;
+	padding-top: 100px;
+}
+.login_con_box {
+	width: 720px;
+	margin: 0 auto;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px #d2d2d2;
+	overflow: hidden;
+	
+}
+.login_con_box .login_title{
+	height: 50px;
+	width: 100%;
+}
+.login_con_box .login_title h3 {
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	background: rgba(0,0,0,0.2);
+}
+.login_con_box .login_title h3 a {
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	color: #c0bfbe;
+	font-size: 20px;
+	color: #fff;
+}
+.login_con_box .login_title h3.dl {
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+}
+.login_con_box .login_title h3.dl a {
+	color: #4a4a4a;
+}
+.login_con_box .login_info{
+	padding: 55px 35px;
+	width: 683px;
+	background: #fff;
+
+}
+.login_info .form_part {
+	border-right: 1px solid #ddd;
+	padding-right: 56px;	
+	width: 310px;
+}
+
+.part_f .f-name,.part_f .f-password {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 12px;
+	position: relative;
+}
+
+#username,#password {
+	width: 100%;
+	height: 22px;
+	border:1px solid #ddd;
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 8px 0;
+	text-indent: 10px;
+	height: 24px;
+	line-height: 24px;
+
+}
+#username:focus ,#password:focus {
+	border: 1px solid #0d7af5;
+	box-shadow: 0 1px 4px #3b99fc;
+
+}
+
+.part_f .ff {
+	width: 310px;
+	margin-top: 25px;
+	margin-bottom: 12px;
+	font-size:14px;
+	color: #4a4a4a;
+}
+#checkbox1 {
+	float: left;
+}
+.part_f .ff .ss {
+	float: right;
+}
+.part_f .ff .ss a {
+	color: #4a4a4a;
+	font-size:14px;
+}
+.part_f .l_btn {
+	height: 40px;
+	background: #0d7af5;
+	width: 100%;
+	border-radius: 4px;
+	line-height: 40px;
+	text-align: center;
+	border:none;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+
+
+}
+.part_f .l_btn:hover{
+	opacity: 0.8;
+}
+.part_f .l_btn:active{
+	outline: 1px solid #0d7af5;
+}
+.login_info .other_part {
+	width: 200px;
+	padding-left: 20px;
+	margin-right: 40px;
+}
+
+.login_info .other_part h4 {
+	color: #797979;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
+.login_info .other_part .signin .weixin,
+.login_info .other_part .signin .weibo{
+	margin-top: 20px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px #f1f1f1;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+
+}
+.login_info .other_part .signin .weixin:hover,
+.login_info .other_part .signin .weibo:hover{
+	opacity: 0.9;
+}
+.login_info .other_part .signin i {
+	padding-right: 10px;
+	font-size: 16px;
+}
+.login_info .other_part .signin .weixin {
+	background: #51b342;
+}
+.login_info .other_part .signin a{
+	color: #fff;
+
+}
+.login_info .other_part .signin .weibo {
+	background: #e6162d;
+}
+#footer_login {
+	padding-top: 80px;
+	padding-bottom: 60px;
+	background: #fff;
+}
+
+#footer_login .wp {
+	text-align: center;
+}
+
+#footer_login .tips a{
+	margin-right: 10px;
+	color: #858585;
+}
+#footer_login .tips a:hover  {
+	text-decoration: underline;
+}
+#footer_login .xx {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+/* regsiter */
+
+
+
+#zc_username,#yzmVal {
+	width: 100%;
+	height: 22px;
+	border:1px solid #ddd;
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 8px 0;
+	text-indent: 10px;
+	height: 24px;
+	line-height: 24px;
+
+}
+#zc_username:focus ,#yzmVal:focus {
+	border: 1px solid #0d7af5;
+	box-shadow: 0 1px 4px #3b99fc;
+
+}
+.part_f .zc_btn {
+	height: 40px;
+	background: #ccc;
+	width: 100%;
+	border-radius: 4px;
+	line-height: 40px;
+	text-align: center;
+	border:none;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+
+}
+.f-password .yzm_get {
+	position: absolute;
+	right: 4px;
+	top: 6px;
+	height: 30px;
+	text-align: right;
+}
+.yzm_get span {
+
+} 
+.yzm_get .get_btn {
+	border: none;
+	color: #fff;
+	line-height: 30px;
+	height: 30px;
+	font-size: 12px;
+	
+	background: #0d7af5;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.form_msg {
+
+	position: absolute;
+	top: 5px;
+	right: 0;
+	min-width: 100px;
+	background: #f85858;
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0 5px;
+	display: none;
+}
+.yzm_get_msg{
+	background: #f85858;
+	color: #fff;
+	padding: 8px 3px;
+	line-height: 28px;
+	display: none;
+}

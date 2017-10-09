@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>登录 神奇社区</title>
+	
+	<link rel="shortout icon" href="favicon.ico" type="image/x-icon" />
+	<link href="font/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/common.css">
+	<link rel="stylesheet" href="styles/login.css">
+	<!--[if IE]>
+	<link href="fontawesome-4.2.0/css/font-awesome-ie7.min.css" rel="stylesheet" />
+	<![endif]-->
+	<script src="lib/jquery-1.11.1/jquery.min.js"></script>
+</head>
+<body>
+	<!-- 头部 开始 -->
+	<header id="header1">
+		<div id="header_top">
+			<div class="container_wrap clearfix">
+				<div class="logo fl">
+					<a href="index.html">
+						<img src="images/logo.png" alt="">
+					</a>
+				</div>
+				<div class="nav">
+						<ul class="clearfix">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="community.html">社区</a></li>
+							<li><a href="#">兴趣小组</a></li>
+							<li><a href="#">直播</a></li>
+							<li><a href="#">说说生活</a></li>
+							<li><a href="#">客户端</a></li>
+						</ul>
+				</div>
+				<div class="header_search fr">
+						<form class="sq_form">
+							<input type="text" class="form_txt" placeholder="搜索文章，帖子，用户">
+							<i class="search fa fa-search"></i>
+							
+						</form>
+						<div class="login_re">
+							<a href="login.html" class="login">登 录</a>
+							<a href="regsiter.html" class="regsiter">注 册</a>
+							
+						</div>
+						
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- 头部 结束 -->
+	<section id="login_con">
+		<div class="wp">
+			<div class="wp_iner">
+				<div class="login_con_box">
+					<div class="login_title">
+						<h3 class="dl fl"><a href="regsiter.html">注册</a></h3>
+						<h3 class="zc fr"><a href="login.html">登录</a></h3>
+					</div>
+					<div class="login_info clearfix">
+						<form class="form_part fl">
+							<div class="part_f">
+								<div class="f-name fn">
+									<label for="zc_username"></label>
+									<input type="text" name="username" id="zc_username" autocomplete="off" size="30" tabindex="1" value="" placeholder=" 手机号 / 邮箱">
+									<div class="form_msg msg">手机号或邮箱格式错误</div>
+								</div>
+								<div class="f-password fn">
+									<label for="yzmVal"></label>
+									<input type="text" id="yzmVal" name="code" size="30" placeholder="验证码">
+									<div class="yzm_get">
+										<span class="yzm_get_msg msg">请输入正确的验证码</span>
+										<!-- <a href="javascript:void(0)" class="get_btn" >获取验证码</a> -->
+										<button class="get_btn" >获取验证码</button>
+									</div>
+								</div>
+								
+								<button class="zc_btn"  type="submit" name="zc_next">下一步</button>
+							</div>
+						</form>
+						<div class="other_part fr">
+							<div class="inner">
+								<h4>第三方账号登录</h4>
+								<div class="signin">
+									<div class="weixin">
+										<a href="#"><i class="fa fa-weixin" aria-hidden="true"></i>微信账号登录</a>
+									</div>
+									<div class="weibo">
+										<a href="#"><i class="fa fa-weibo" aria-hidden="true"></i>新浪账号登录</a>
+									</div>
+									
+								</div>
+							</div>	
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 底部 开始 -->
+	<footer id="footer_login">
+		<div class="wp">
+			<p class="tips">
+				<a href="#">关于我们</a>
+				<a href="#">联系我们</a>
+				<a href="#">免责声明</a>
+				<a href="#">帮助中心</a>
+			</p>
+			<p class="xx">
+				© 2010 - 2017 ShenQi.com Share our beautiful life  <br>
+				粤ICP备63000000号-6
+			</p>
+		</div>
+		
+	</footer>
+	<!-- 底部 结束 -->
+
+	<script src="scripts/login.js"></script>
+</body>
+</html>
