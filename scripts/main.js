@@ -343,7 +343,5 @@ jQuery(document).ready(function($) {
 	}
 	backTop();
 
-console.log(111)
-
 });
 

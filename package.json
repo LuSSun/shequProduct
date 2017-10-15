@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "swiper": "^4.0.0-beta.4"
+    "swiper": "^3.4.2"
   }
 }

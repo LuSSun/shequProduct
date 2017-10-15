@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 			'color':'#797979'
 		});
 		timer = setInterval(doLoop,1000);
-
+		return false;
 	})
 	function doLoop(){
 		nums--;
